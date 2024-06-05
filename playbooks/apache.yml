@@ -22,7 +22,7 @@
 
     - name: Deploy a basic index.html
       copy:
-        content: "<html><body><h1>Apache is working on Amazon Linux!</h1></body></html>"
+        content: "<html><body><h1>Apache is working on EC2!</h1></body></html>"
         dest: /var/www/html/index.html
         owner: apache
         group: apache

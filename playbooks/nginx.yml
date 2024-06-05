@@ -26,7 +26,7 @@
 
     - name: Deploy a basic index.html
       copy:
-        content: "<html><body><h1>Nginx is working on Amazon Linux!</h1></body></html>"
+        content: "<html><body><h1>Nginx is working on EC2!</h1></body></html>"
         dest: /usr/share/nginx/html/index.html
         owner: nginx
         group: nginx
