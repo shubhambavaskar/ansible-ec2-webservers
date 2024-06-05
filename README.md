@@ -1,6 +1,6 @@
 ```
-git clone
-cd
+git clone https://github.com/atulkamble/ansible-ec2-webservers.git
+cd ansible-ec2-webservers
 ```
 
 # ansible-ec2-webservers
