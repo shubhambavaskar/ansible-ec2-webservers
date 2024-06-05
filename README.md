@@ -1,3 +1,8 @@
+```
+git clone
+cd
+```
+
 # ansible-ec2-webservers
 
 ```
