@@ -45,6 +45,6 @@ sudo systemctl start nginx
 ansible-playbook --syntax-check playbooks/nginx.yml
 ansible-playbook -vvvv ping.yml
 
-ansible-playbook -i inventory/hosts playbooks/apache.yml
+ansible-playbook -i inventory/hosts playbooks/nginx.yml
 ansible-playbook -i inventory/hosts playbooks/apache.yml
 ```
