@@ -48,3 +48,25 @@ ansible-playbook -vvvv ping.yml
 ansible-playbook -i inventory/hosts playbooks/nginx.yml
 ansible-playbook -i inventory/hosts playbooks/apache.yml
 ```
+//setup//
+ansible 
+controle-node
+1}sudo apt update
+2}sudo apt-add-repository ppa:ansible/ansible
+3}sudo apt update
+4}sudo apt install ansible -y  
+5}ssh-keygen 
+6}  sudo cat /home/ubuntu/.ssh/id_ed25519.pub 
+7}sudo vi /etc/ansible/hosts    
+ 8} [webservers]
+web01 ansible_host=172.31.88.213 ansible_user=ubuntu
+9} ansible webservers -m ping    
+10} history
+
+ manage-nod-01 
+1}cd .ssh 
+2} chmod 600 ~/.ssh/authorized_keys
+3} sudo vi authorized_keys
+4}chmod 700 ~/.ssh
+5}chmod 600 ~/.ssh/authorized_keys
+6} history
